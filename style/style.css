@@ -1,0 +1,287 @@
+/*chỉnh sửa header*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-header {
+  background-color: #303030;
+  display: flex;
+  justify-content: flex-end;
+  padding: 2px;
+}
+.container-header a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  font-size: 12px;
+  position: relative;
+  right: 25px;
+}
+.container-header img {
+  margin-right: 4px;
+}
+.logo-img {
+  width: 50px;
+}
+.col-md-8 ul {
+  display: flex;
+}
+.col-md-8 a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  margin-left: 28px;
+  margin-right: 28px;
+  position: relative;
+  top: 40px;
+  right: 30px;
+}
+.col-md-8 li {
+  list-style: none;
+}
+.icon-sanpham img {
+  position: relative;
+  bottom: 13px;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #ccc;
+  width: 290px;
+  height: 35px;
+  position: relative;
+  right: 20px;
+  top: 25px;
+}
+.search-icon {
+  padding: 5px;
+}
+.search-icon img {
+  width: 25px;
+  height: 25px;
+}
+.search-input {
+  border: none;
+
+  font-size: 13px;
+}
+.bg-top {
+  background-color: #f1f1f1;
+  height: 50px;
+}
+.boxcenter i {
+  font-size: 17px;
+  position: relative;
+  top: 10px;
+}
+/* chỉnh sửa phần body*/
+.center-img {
+  width: 100%;
+
+  margin-top: 30px;
+}
+section {
+  margin-top: 50px;
+}
+a:hover {
+  color: orangered;
+}
+.line {
+  border-bottom: 2px solid black;
+  width: 75%;
+  margin-top: 20px;
+}
+
+/* chỉnh sửa phần danh mục */
+.first-danhmuc {
+  font-size: 20px;
+  text-decoration: none;
+  color: orangered;
+}
+
+.danh_muc {
+  font-size: 17px;
+  color: black;
+  text-decoration: none;
+}
+.item-option li {
+  margin-top: 8px;
+}
+
+.first-danhmuc {
+  position: relative;
+  right: 20px;
+}
+li {
+  list-style: none;
+}
+.danhmuc-luachon a {
+  color: black;
+  font-size: 19px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.danhmuc a {
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+/*chỉnh sửa item*/
+.chia_manhinh1-6 {
+  width: 25%;
+}
+.chia_manhinh5-6 {
+  width: 75%;
+}
+
+/* chỉnh sửa footer*/
+.footer-container {
+  background-color: #4c4c4c;
+  position: relative;
+  top: 30px;
+}
+.footer-luachon {
+  font-size: 15px;
+  list-style: none;
+  color: #b6b6b6;
+  text-decoration: none;
+}
+.footer-chinhsach {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+.footer-hotro {
+  list-style: none;
+  margin-left: -30px;
+  margin-top: 15px;
+}
+.footer-luachon:hover {
+  color: #ea5a2a;
+}
+.footer-house {
+  display: flex;
+  justify-content: center;
+}
+.footer-map {
+  display: flex;
+  justify-content: center;
+}
+.box-map {
+  width: 250px;
+  height: 45px;
+  background-color: #ea5a2a;
+  color: white;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.footer-top {
+  padding-top: 40px;
+}
+.footer-social {
+  margin-top: -20px;
+  color: white;
+  font-size: 23px;
+  font-weight: 500;
+}
+.footer-logo {
+  margin-top: -20px;
+}
+.img-social {
+  width: 100px;
+} /*chỉnh responsive*/
+@media (max-width: 768px) {
+  header {
+    display: none;
+  }
+  .logo-web {
+    width: 70px;
+    position: relative;
+    left: 50px;
+  }
+
+  .icon-web {
+    width: 70px;
+    margin-left: 20px;
+    position: relative;
+    left: 500px;
+  }
+
+  .bg-top2 {
+    background-color: #f1f1f1;
+    height: 50px;
+    width: 900px;
+  }
+  .boxcenter2 em {
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+  }
+  .chia_manhinh1-6 {
+    display: none;
+  }
+  .chia_manhinh5-6 {
+    width: 100%;
+    position: relative;
+    left: 80px;
+  }
+  .chia_manhinh5-6 img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .search-container {
+    display: none;
+  }
+  .container li {
+    font-size: 14px;
+  }
+  footer {
+    display: none;
+  }
+  .newFooter {
+    width: 940px;
+    position: relative;
+    right: 35px;
+    bottom: -15px;
+  }
+  .newFooter li {
+    display: grid;
+    border: 1px solid black;
+    background-color: #303030;
+    color: white;
+  }
+  .newFooter h1 {
+    margin-left: 20px;
+  }
+  .img-ft {
+    width: 100px;
+    margin-left: 10px;
+  }
+  .text-Input {
+    width: 300px;
+    height: 40px;
+    margin-left: 20px;
+  }
+  .button-color {
+    width: 300px;
+    height: 40px;
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  .button-Submit {
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: black;
+  }
+}
+@media (min-width: 769px) {
+  .newHeader {
+    display: none;
+  }
+  .newFooter {
+    display: none;
+  }
+}
